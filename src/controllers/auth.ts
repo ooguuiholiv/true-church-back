@@ -8,10 +8,19 @@ const JWT_SECRET = process.env.JWT_SECRET || 'your-secret-key';
 
 export const login = async (req: Request, res: Response) => {
     const { email, password } = req.body;
+    console.log(`[AUTH] Login attempt for: ${email}`);
     const users = await readData<any>('users');
     const user = users.find((u: any) => u.email === email);
 
-    if (user && await bcrypt.compare(password, user.password)) {
+    if (!user) {
+        console.log(`[AUTH] User not found: ${email}`);
+        return res.status(401).json({ message: 'E-mail ou senha incorretos.' });
+    }
+
+    const isPasswordValid = await bcrypt.compare(password, user.password);
+    console.log(`[AUTH] Password valid: ${isPasswordValid}`);
+
+    if (isPasswordValid) {
         const { password: _, ...userWithoutPassword } = user;
         const token = jwt.sign(
             { id: user.id, email: user.email, role: user.role },

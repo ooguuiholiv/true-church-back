@@ -2,6 +2,9 @@ import { Request, Response } from 'express';
 import { readData, writeData } from '../data/db';
 import { v4 as uuidv4 } from 'uuid';
 import bcrypt from 'bcryptjs';
+import jwt from 'jsonwebtoken';
+
+const JWT_SECRET = process.env.JWT_SECRET || 'your-secret-key';
 
 export const login = async (req: Request, res: Response) => {
     const { email, password } = req.body;
@@ -9,9 +12,13 @@ export const login = async (req: Request, res: Response) => {
     const user = users.find((u: any) => u.email === email);
 
     if (user && await bcrypt.compare(password, user.password)) {
-        // In a real app, we would return a JWT here
         const { password: _, ...userWithoutPassword } = user;
-        res.json({ user: userWithoutPassword, token: 'fake-jwt-token' });
+        const token = jwt.sign(
+            { id: user.id, email: user.email, role: user.role },
+            JWT_SECRET,
+            { expiresIn: '24h' }
+        );
+        res.json({ user: userWithoutPassword, token });
     } else {
         res.status(401).json({ message: 'E-mail ou senha incorretos.' });
     }

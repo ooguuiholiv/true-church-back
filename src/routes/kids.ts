@@ -1,7 +1,10 @@
 import { Router } from 'express';
 import { getKids, registerKid, updateKid, getPresentKids, checkinKid, checkoutKid } from '../controllers/kids';
+import { authenticateToken } from '../middlewares/auth';
 
 const router = Router();
+
+router.use(authenticateToken);
 
 router.get('/base', getKids); // Crianças cadastradas
 router.post('/register', registerKid); // Cadastrar nova criança

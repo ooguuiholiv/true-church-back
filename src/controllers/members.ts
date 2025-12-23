@@ -32,8 +32,7 @@ export const createMember = async (req: Request, res: Response) => {
     let photoUrl = req.body.photo;
 
     if (req.file) {
-        const baseUrl = process.env.BASE_URL || 'http://localhost:3001';
-        photoUrl = `${baseUrl}/uploads/members/${req.file.filename}`;
+        photoUrl = `/uploads/members/${req.file.filename}`;
     }
 
     const newMember = {
@@ -59,8 +58,7 @@ export const updateMember = async (req: Request, res: Response) => {
         let photoUrl = req.body.photo || members[index].photo;
 
         if (req.file) {
-            const baseUrl = process.env.BASE_URL || 'http://localhost:3001';
-            photoUrl = `${baseUrl}/uploads/members/${req.file.filename}`;
+            photoUrl = `/uploads/members/${req.file.filename}`;
         }
 
         const updatedData = { ...req.body };

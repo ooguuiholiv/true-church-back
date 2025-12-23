@@ -5,7 +5,7 @@
     "status": "leader",
     "role": "Membro",
     "joinDate": "2025-12-22T18:15:50.465Z",
-    "photo": "http://localhost:3001/uploads/members/member-1766460616263-900661246.jpeg",
+    "photo": "/uploads/members/member-1766460616263-900661246.jpeg",
     "id": "47ec2b4f-857d-4dd1-b4a6-78481a100798",
     "phone": "34997674564",
     "birthDate": "1999-05-01",

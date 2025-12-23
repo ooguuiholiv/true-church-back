@@ -1,0 +1,66 @@
+[
+    {
+        "id": "m1",
+        "name": "Louvor",
+        "leader": "Sthella Portela",
+        "description": "Equipe responsável pela adoração e música nos cultos.",
+        "color": "#6366f1",
+        "members": []
+    },
+    {
+        "id": "m2",
+        "name": "Kids",
+        "leader": "Nayana Rezende",
+        "description": "Ministério focado no ensino e cuidado das crianças.",
+        "color": "#f59e0b",
+        "members": []
+    },
+    {
+        "id": "m3",
+        "name": "Jovens",
+        "leader": "Francisco Hamilton",
+        "description": "Rede de jovens focada em discipulado e comunhão.",
+        "color": "#10b981",
+        "members": []
+    },
+    {
+        "id": "m4",
+        "name": "Recepção",
+        "leader": "Junior Portela",
+        "description": "Equipe de boas-vindas e acolhimento.",
+        "color": "#ec4899",
+        "members": []
+    },
+    {
+        "id": "m5",
+        "name": "Intercessão",
+        "leader": "Sthella Portela",
+        "description": "Grupo de oração e intercessão pela igreja.",
+        "color": "#8b5cf6",
+        "members": []
+    },
+    {
+        "id": "m6",
+        "name": "Mídia",
+        "leader": "Sthella Portela",
+        "description": "Responsável por som, projeção e redes sociais.",
+        "color": "#3b82f6",
+        "members": []
+    },
+    {
+        "id": "m7",
+        "name": "Ação Social",
+        "leader": "Junior Portela",
+        "description": "Projetos de auxílio à comunidade e caridade.",
+        "color": "#ef4444",
+        "members": []
+    },
+    {
+        "id": "m8",
+        "name": "Ensino",
+        "leader": "Junior Portela",
+        "description": "Escola bíblica e cursos de formação.",
+        "color": "#06b6d4",
+        "members": []
+    }
+]

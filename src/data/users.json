@@ -1,0 +1,19 @@
+[
+  {
+    "id": "root-user-id",
+    "email": "true@church.com",
+    "password": "$2b$10$0LDrRO1SHRl.qhhZZszXcu7AmUUYLAT5YxH8b2w2mRP50ELHDuPlu",
+    "role": "admin",
+    "name": "Administrador",
+    "photo": "https://i.pravatar.cc/150?u=root-user-id"
+  },
+  {
+    "id": "6d4f3480-a449-4afa-8e20-debc62ea826d",
+    "email": "francoguilherme.sec@gmail.com",
+    "password": "$2b$10$Y8.HAee/5yszv0NelLyFpu2Sx7mwHzBj2sJW5Mf.7T/XDTcFcNMHa",
+    "name": "GUILHERME FRANCO OLIVEIRA",
+    "role": "admin",
+    "memberId": "47ec2b4f-857d-4dd1-b4a6-78481a100798",
+    "photo": "http://localhost:3001/uploads/members/member-1766460616263-900661246.jpeg"
+  }
+]

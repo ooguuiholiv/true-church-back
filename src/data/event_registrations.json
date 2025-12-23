@@ -1,0 +1,46 @@
+[
+  {
+    "name": "GUILHERME FRANCO OLIVEIRA",
+    "email": "francoguilherme.sec@gmail.com",
+    "phone": "34997674564",
+    "cpf": "14935245697",
+    "paymentStatus": "pending",
+    "registrationDate": "2025-12-22T18:43:03.412Z",
+    "id": "f71e65b3-aec4-44bb-95db-21cdc5fe89da",
+    "eventId": "5c47ecb3-3cfa-4363-b8ff-7f54f7213d37",
+    "createdAt": "2025-12-22T18:43:03.495Z"
+  },
+  {
+    "name": "GUILHERME FRANCO OLIVEIRA",
+    "email": "francoguilherme.sec@gmail.com",
+    "phone": "34997674564",
+    "cpf": "149.352.456-97",
+    "paymentStatus": "paid",
+    "registrationDate": "2025-12-22T18:47:52.543Z",
+    "id": "ba671437-3e13-468d-92b6-1fc10fda974d",
+    "eventId": "098c42a2-a982-4c93-972e-26d1e90d52ff",
+    "createdAt": "2025-12-22T18:47:52.552Z"
+  },
+  {
+    "name": "GUILHERME FRANCO",
+    "email": "teste@teste.com",
+    "phone": "(34) 99767-4564",
+    "cpf": "149.352.456-97",
+    "paymentStatus": "paid",
+    "registrationDate": "2025-12-22T18:58:07.884Z",
+    "id": "24af2eda-0bce-4e9c-9300-3b24e14ca0e2",
+    "eventId": "6bd4557d-c03c-4770-a189-9edf9d5f1f74",
+    "createdAt": "2025-12-22T18:58:07.895Z"
+  },
+  {
+    "name": "AMANDA APARECIDA SILVA FRANCO",
+    "email": "AMANDA@MAIL.COM",
+    "phone": "(00) 00000-0000",
+    "cpf": "000.000.000-00",
+    "paymentStatus": "paid",
+    "registrationDate": "2025-12-22T21:04:26.519Z",
+    "id": "abdfe7fc-142d-4abf-ad46-8e85e781f340",
+    "eventId": "a00c0d32-a45e-4a1a-aa9b-9ab1f36f13ca",
+    "createdAt": "2025-12-22T21:04:26.541Z"
+  }
+]

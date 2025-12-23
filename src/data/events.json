@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Acampamento de Carnaval",
+    "date": "2026-02-14",
+    "endDate": "2026-02-17",
+    "time": "18:00",
+    "location": "Chacara Juville",
+    "price": "130",
+    "description": "⛺ CARNAVAL DIFERENTE É NA TRUECHURCH!\nCansado da mesma rotina de sempre? Quer viver dias que realmente vão marcar a sua história? Então o seu lugar é no nosso Acampamento de Jovens na Chácara Juville! 🌿🔥\n\nSerá um tempo de desconectar do barulho do mundo para conectar com o que realmente importa. Prepare-se para:\n\nLouvor e Palavra que vão incendiar seu coração.\n\nGincanas épicas e muita diversão com a galera.\n\nNovas amizades e momentos inesquecíveis ao redor da fogueira.\n\nNão deixe para a última hora! O seu encontro com Deus tem data e lugar marcados.\n\n👉 [BOTÃO: QUERO GARANTIR MINHA VAGA AGORA]\n\n🎒 CHECKLIST: O QUE NÃO PODE FALTAR NA MALA\nPara você não passar aperto, organize-se com antecedência:\n\nEspiritual: Bíblia, caderno de anotações e caneta.\n\nHigiene: Toalha, escova de dente, pasta, sabonete, shampoo e desodorante.\n\nDormitório: Roupa de cama (lençol, cobertor), travesseiro e, se necessário, seu colchão/barraca.\n\nVestuário: Roupas leves e confortáveis, tênis (essencial para as gincanas), chinelo e um casaco (pode esfriar à noite).\n\nExtras: Protetor solar, repelente e sua garrafinha de água.\n\n🚫 O QUE É PROIBIDO LEVAR\nPara mantermos a segurança e o foco no propósito do acampamento, não será permitido:\n\nBebidas alcoólicas ou qualquer tipo de fumo/vape.\n\nObjetos cortantes, inflamáveis ou armas de qualquer espécie.\n\nCaixas de som individuais (teremos o som oficial do evento).\n\nRoupas excessivamente curtas ou inadequadas para o ambiente de retiro.\n\nAtenção: O uso de celulares será restrito em momentos específicos para privilegiar a comunhão.\n\nDúvidas? Procure a liderança de jovens após o culto ou responda a essa mensagem!\n\nNos vemos na Juville! 👋",
+    "image": "https://picsum.photos/seed/0.41669943102830254/600/400",
+    "registrationDeadline": "2026-02-10",
+    "status": "closed",
+    "registrationProgress": 0,
+    "id": "a00c0d32-a45e-4a1a-aa9b-9ab1f36f13ca"
+  },
+  {
+    "title": "teste",
+    "date": "2025-12-22",
+    "endDate": "2025-12-22",
+    "time": "19",
+    "location": "",
+    "price": "0",
+    "description": "",
+    "image": "https://picsum.photos/seed/0.49974128401726425/600/400",
+    "registrationDeadline": "2028-12-22",
+    "status": "open",
+    "registrationProgress": 0,
+    "id": "69fb3a6a-bcfb-4c89-9d43-606fd3cf64fd"
+  }
+]

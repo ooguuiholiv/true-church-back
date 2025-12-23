@@ -1,0 +1,70 @@
+[
+  {
+    "date": "2025-12-31",
+    "time": "22:00",
+    "title": "Culto de Virada",
+    "assignments": [
+      {
+        "ministryId": "Louvor",
+        "members": [
+          "47ec2b4f-857d-4dd1-b4a6-78481a100798"
+        ]
+      },
+      {
+        "ministryId": "Kids",
+        "members": [
+          "ec0c80fa-62bf-432f-919e-4b9492ccf505"
+        ]
+      },
+      {
+        "ministryId": "Jovens",
+        "members": [
+          "47ec2b4f-857d-4dd1-b4a6-78481a100798",
+          "ec0c80fa-62bf-432f-919e-4b9492ccf505"
+        ]
+      },
+      {
+        "ministryId": "Recepção",
+        "members": []
+      },
+      {
+        "ministryId": "Intercessão",
+        "members": []
+      },
+      {
+        "ministryId": "Mídia",
+        "members": [
+          "47ec2b4f-857d-4dd1-b4a6-78481a100798"
+        ]
+      },
+      {
+        "ministryId": "Ação Social",
+        "members": []
+      },
+      {
+        "ministryId": "Ensino",
+        "members": []
+      },
+      {
+        "ministryId": "m1",
+        "members": [
+          "47ec2b4f-857d-4dd1-b4a6-78481a100798"
+        ]
+      },
+      {
+        "ministryId": "m2",
+        "members": [
+          "ec0c80fa-62bf-432f-919e-4b9492ccf505"
+        ]
+      },
+      {
+        "ministryId": "m6",
+        "members": [
+          "47ec2b4f-857d-4dd1-b4a6-78481a100798"
+        ]
+      }
+    ],
+    "id": "78f39da4-bcdd-4fe1-8b5f-f99606d19534",
+    "status": "Confirmado"
+  }
+]
